@@ -1,10 +1,10 @@
 require_relative 'piece.rb'
 
-class Pawn < Piece
+class Bishop < Piece
 
     def initialize(color, board, pos)
         super(color, board, pos)
-        @symbol = :P
+        @symbol = :B
     end
 
     def inspect

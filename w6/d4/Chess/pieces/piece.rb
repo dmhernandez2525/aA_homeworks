@@ -1,7 +1,7 @@
 # require_relative ''
 
 class Piece
-
+    attr_reader :pos,:board,:color
     def initialize(color, board, pos)
         @color = color
         @board = board
@@ -12,16 +12,19 @@ class Piece
         @value = @name
     end
 
-    def moves()
+    def moves    #return array all moves, subclasses's methods
 
     end
 
-    def valid_moves
-        
+    def valid_moves     #return valid movable possitions
+        pos_moves = self.moves
+        pos_moves.select do |pos|
+            self.board[pos].color != self.color
+        end
     end
 
-    def empty?()
-        self == NullPiece.instance
+    def empty?(pos)
+        board[pos] == NullPiece.instance
     end
 
     def pos=(val)

@@ -5,10 +5,12 @@ class NullPiece < Piece
     include Singleton
 
     def initialize
-        @name = "null"
+        @symbol = :NUll
+        @color = :G
+
     end
 
     def inspect
-        @value = @name
+        @value = @symbol
     end
 end
