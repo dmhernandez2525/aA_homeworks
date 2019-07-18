@@ -1,0 +1,51 @@
+bundle exec rspec spec/01_queries_spec.rb:10
+bundle exec rspec spec/01_queries_spec.rb:27
+bundle exec rspec spec/01_queries_spec.rb:35
+bundle exec rspec spec/01_queries_spec.rb:48
+bundle exec rspec spec/01_queries_spec.rb:56
+bundle exec rspec spec/01_queries_spec.rb:66
+
+
+bundle exec rspec spec/01_queries_spec.rb:53
+bundle exec rspec spec/01_queries_spec.rb:114
+bundle exec rspec spec/01_queries_spec.rb:123
+bundle exec rspec spec/01_queries_spec.rb:127
+bundle exec rspec spec/01_queries_spec.rb:136
+bundle exec rspec spec/01_queries_spec.rb:142
+bundle exec rspec spec/01_queries_spec.rb:151
+bundle exec rspec spec/01_queries_spec.rb:161
+
+
+
+
+rspec ./spec/01_queries_spec.rb:10 ion
+rspec ./spec/01_queries_spec.rb:27 
+rspec ./spec/01_queries_spec.rb:35 rmation
+rspec ./spec/01_queries_spec.rb:48 once
+rspec ./spec/01_queries_spec.rb:56 mation
+rspec ./spec/01_queries_spec.rb:66 nce
+rspec ./spec/01_queries_spec.rb:75  information
+rspec ./spec/01_queries_spec.rb:99 ctly once
+rspec ./spec/01_queries_spec.rb:107 rrect information
+rspec ./spec/01_queries_spec.rb:135 e exactly once
+rspec ./spec/02_queries_spec.rb:9 information
+rspec ./spec/02_queries_spec.rb:54 tly once
+rspec ./spec/02_queries_spec.rb:62 ion
+rspec ./spec/02_queries_spec.rb:66 
+rspec ./spec/02_queries_spec.rb:75 ion
+rspec ./spec/02_queries_spec.rb:102 
+rspec ./spec/02_queries_spec.rb:110 formation
+rspec ./spec/02_queries_spec.rb:177 y once
+rspec ./spec/02_queries_spec.rb:184 formation
+rspec ./spec/02_queries_spec.rb:193 y once
+rspec ./spec/03_queries_spec.rb:16 rect information
+rspec ./spec/03_queries_spec.rb:33  exactly once
+rspec ./spec/03_queries_spec.rb:41 tion
+rspec ./spec/03_queries_spec.rb:45 e
+rspec ./spec/03_queries_spec.rb:53 n
+rspec ./spec/03_queries_spec.rb:114 rspec ./spec/03_queries_spec.rb:123 information
+rspec ./spec/03_queries_spec.rb:127 tly once
+rspec ./spec/03_queries_spec.rb:136 ect information
+rspec ./spec/03_queries_spec.rb:142 exactly once
+rspec ./spec/03_queries_spec.rb:151 ormation
+rspec ./spec/03_queries_spec.rb:161  once
