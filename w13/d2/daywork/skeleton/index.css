@@ -1,0 +1,104 @@
+
+
+.clock-container{
+
+    background-color: orange;
+    font-family: 'Open Sans', sans-serif;
+    border: 3px solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    background-image :url("./Screenshot\ from\ 2019-08-19\ 18-45-46.png");
+    background-repeat: no-repeat;
+    width: 575px;
+    height: 600px;
+    margin: 0 auto;
+    
+}
+
+.wrapper{
+
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+.tab-header {
+    width: 200px;
+    height: 30px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-header>li {
+    width: 65px;
+    border-top: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 4px;
+    text-align: center;
+    cursor: pointer;
+    background-color: lightpink;
+}
+
+.tab-header>li:first-child {
+    border-left: 2px solid black;
+    background-image :url("./Screenshot\ from\ 2019-08-19\ 18-45-46.png");
+
+}
+
+.tab-header>li:last-child {
+    border-right: 2px solid black;
+}
+
+.tab-header>li:hover {
+    background-color: black;
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.tabs {
+    width: 240px;
+    height: 200px;
+}
+
+.tab-content {
+    font-weight: bold;
+    color: white;
+    height: 192px;
+    margin: 0 20px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    background-image: url(https://hd.unsplash.com/photo-1445112098124-3e76dd67983c);
+    background-image :url("./Screenshot\ from\ 2019-08-19\ 18-26-35.png");
+
+    background-size: cover;
+}
+
+.tab-content article {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.interactive {
+    display: flex;
+    justify-content: space-around;
+}
+
