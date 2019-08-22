@@ -1,0 +1,37 @@
+.tile{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px; 
+    background-color: white;
+    color: aqua;
+    border-style: inset;
+    border-style: outset;
+    /* display: inline; */
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.board{
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+
+
+
+.bombed{
+
+}
+.flagged{
+
+}
+.explored{
+
+} 
