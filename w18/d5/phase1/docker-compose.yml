@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: danielmark2525/python:3.7.0-alpine3.8
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+  redis:
+    image: "redis:4.0.11-alpine"

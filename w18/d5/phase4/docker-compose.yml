@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  app:
+    image: danielmark2525/custom-drupal
+    ports: 
+      - 8080:80
+
+  db: 
+    image: postgres:9.6
+    environment:
+      - POSTGRES_PASSWORD=1
+    volumes: 
+      - drupal-data:/var/lib/postgresql/data
+
+volumes: 
+  drupal-data:
