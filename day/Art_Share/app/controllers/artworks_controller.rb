@@ -1,3 +1,0 @@
-class ArtworksController < ApplicationController
-    
-end
